@@ -1,0 +1,23 @@
+.MuiFormControl-root.MuiOutlinedInput-notchedOutline.text-field {
+  height: 64px;
+  align-items: center;
+  border-radius: 12px;
+  padding-left: 12px;
+}
+
+.select-field {
+  height: 55px;
+  padding: 0 12px 0 0;
+  padding-left: 12px;
+  align-items: center;
+  border-radius: 8px;
+  border: 1px solid #dbe1ea;
+  font-family: GilroyRegular, sans-serif;
+  font-size: 24px;
+}
+
+.tab-heading {
+  font-family: GilroySemiBold;
+  font-size: 24px;
+  margin-bottom: 8px;
+}

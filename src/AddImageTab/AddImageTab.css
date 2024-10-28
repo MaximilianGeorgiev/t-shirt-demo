@@ -1,0 +1,50 @@
+.MuiButton-root.button-upload {
+  background: #295a9d;
+  padding: 12px 36px;
+  border-radius: 12px;
+  color: #fff;
+  font-size: 20px;
+  font-family: GilroyBold, sans-serif;
+  margin-top: 16px;
+}
+
+.upload-icon {
+  color: #FFF;
+  font-size: 28px;
+  margin-right: 6px;
+}
+
+.image-grid-item {
+  position: relative;
+  width: calc((100% - 36px) / 4);
+  aspect-ratio: 1 / 1;
+}
+
+.image {
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.grid-item {
+  border-radius: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.2);
+  z-index: 1;
+}
+
+.remove-image-icon {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 40px;
+  height: 40px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}

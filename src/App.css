@@ -1,0 +1,41 @@
+.container {
+  position: relative;
+  width: 800px;
+  height: 600px;
+}
+
+.outer-image {
+  width: 100%;
+  height: 100%;
+}
+
+.outer {
+  pointer-events: none;
+}
+
+.inner-container {
+  position: relative;
+  pointer-events: auto;
+}
+
+.inner {
+  width: 150px;
+  height: auto;
+  position: relative;
+}
+
+.rotate-handle {
+  width: 15px;
+  height: 15px;
+  background-color: red;
+  position: absolute;
+  right: -20px;
+  top: 50%;
+  cursor: pointer;
+}
+
+.grid-container {
+  background: radial-gradient(197.67% 112.42% at 36.93% 110.14%, #EEF1F9 0%, rgba(237, 240, 245, 0.20) 100%);
+  padding: 30px;
+  font-family: GilroyRegular;
+}

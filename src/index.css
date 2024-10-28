@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "GilroyRegular";
+    src: url('/fonts/Gilroy-Regular.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "GilroySemiBold";
+    src: url('/fonts/Gilroy-SemiBold.woff');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: "GilroyBold";
+    src: url('/fonts/Gilroy-Bold.woff');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: "GilroyExtraBold";
+    src: url('/fonts/Gilroy-ExtraBold.woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+  margin: 0;
+  font-family: 'Gilroy', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+  height: 100vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

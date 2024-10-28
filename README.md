@@ -1,6 +1,8 @@
 # Summary
-This project was created as a proof of concept. It serves to demonstrate limited functionality as a T-shirt configurator, which can be further developed. It provides functionality to import custom artworks, which are resizable, draggable and rotateable. Also adding a custom text with various text manipulation such as font family, font size, rotation and position of text. A bounding box was implemented to capture the design. Export for PNG and SVG is another functionality. It is written using React and Typescript. Image manipulation is handled by the Paper.js library. 
-![image](https://github.com/user-attachments/assets/3d15614e-78a0-4259-866a-c35b9156c85a)
+This project was created as a proof of concept. It serves to demonstrate limited functionality as a T-shirt configurator, which can be further developed. It provides functionality to import custom artworks, which are resizable, draggable and rotateable. Also adding a custom text with various text manipulation such as font family, font size, rotation and position of text. A bounding box was implemented to capture the design. Export for PNG and SVG is another functionality. It is written using React and Typescript. Image manipulation is handled by the Paper.js library.
+
+![image](https://github.com/user-attachments/assets/2c165a45-0402-4b65-9260-9b5efa2ffca0)
+
 
 
 ## Available Scripts
